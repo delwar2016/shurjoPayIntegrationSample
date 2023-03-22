@@ -1,0 +1,161 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .home-event-col {
+    padding-left: 12px;
+    margin-top: 50px;
+  }
+
+  .home-about-us-row {
+    flex-direction: column-reverse;
+  }
+
+  .home-about-us-image {
+    margin-bottom: 50px;
+  }
+
+  .navbar-nav {
+    background: #f8f8f8a3;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px #f6f6f6;
+  }
+
+  .events-box-content {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .event-details-hero-content {
+    padding: 0 20px;
+  }
+
+  .event-details-info {
+    padding: 0;
+  }
+
+  .event-details-fee {
+    padding: 0;
+  }
+
+  .notice-board {
+    padding: 80px 0;
+  }
+
+  .contact-form-section .container > .row {
+    flex-direction: column-reverse;
+  }
+  .contact-form {
+    margin-top: 50px;
+  }
+
+  .contact-image {
+    width: 500px;
+  }
+
+  .contact-form-image {
+    text-align: center;
+  }
+  .primary-heading {
+    margin-bottom: 20px;
+  }
+
+  .home-events-box {
+    background: #e4e4e470;
+    padding: 20px 0;
+    position: relative;
+  }
+
+  .home-events-box::before {
+    content: "";
+    position: absolute;
+    background: #e4e4e470;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: -500000px;
+  }
+
+  .home-events-box::after {
+    content: "";
+    position: absolute;
+    background: #e4e4e470;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: -500000px;
+  }
+
+  .home-events-info {
+    background: #fff;
+    border: 0;
+    border-top: 1px solid #e9e9e9;
+  }
+
+  .home-events-image {
+    background: #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-box-col {
+    margin-bottom: 20px;
+  }
+
+  .contact-image {
+    width: 100%;
+  }
+  .event-reg-box h3 {
+    font-size: 18px;
+  }
+
+  .event-reg-form-input-group label {
+    font-size: 14px;
+  }
+
+  .payment-input-group label {
+    font-size: 13px;
+  }
+  .countdown-normal-text h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .countdown-normal-text p {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .home-hero {
+    padding: 0px;
+  }
+  .countdown-box h4 {
+    font-size: 16px;
+    width: 30px;
+  }
+
+  .countdown-box span {
+    font-size: 12px;
+  }
+
+  .countdown-details {
+    flex-basis: 270px;
+  }
+
+  .countdown-normal-text a {
+    font-size: 12px;
+  }
+
+  .countdown-normal-text {
+    flex-basis: auto;
+    padding: 5px 0;
+  }
+
+  .home-events {
+    padding: 0;
+  }
+
+  .home-events-box {
+    padding-top: 50px;
+  }
+}
